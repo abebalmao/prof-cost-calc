@@ -1,0 +1,5 @@
+table_name|table_type|multi_files|file_path|insert_query
+items_lkp|lookup|0|util/lookup_tables/items_lkp.csv|insert into items_lkp values(?, ?, datetime('now', 'localtime'))
+professions_lkp|lookup|0|util/lookup_tables/professions_lkp.csv|insert into professions_lkp values(?, ?, datetime('now', 'localtime'))
+recipe_definitions_lkp|lookup|0|util/lookup_tables/recipe_definitions_lkp.csv|insert into recipe_definitions_lkp values(?, ?, ?, ?, ?, ?, ?, datetime('now', 'localtime'))
+profession_leveling_routes_lkp|lookup|1|util/lookup_tables/profession_leveling_routes|insert into profession_leveling_routes_lkp values(?, ?, ?, ?, ?, ?, ?, datetime('now', 'localtime'))

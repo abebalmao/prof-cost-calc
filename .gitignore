@@ -1,0 +1,7 @@
+secrets/*
+
+out/archive/*
+
+_test.py
+
+__pycache__/*
